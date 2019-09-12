@@ -15,9 +15,27 @@ void Polynomial::add(int coef, int grado) {
     int auxgrado;
     cin >> coef;
     cin >> grado;
-
     
+}
 
+Polynomial Polynomial::operator*(const int) {
+    return Polynomial();
+}
+
+Polynomial Polynomial::operator*(const Polynomial &) {
+    return Polynomial();
+}
+
+Polynomial &Polynomial::operator=(const Polynomial &) {
+    return <#initializer#>;
+}
+
+Polynomial Polynomial::operator+(const Polynomial &) {
+    return Polynomial();
+}
+
+Polynomial Polynomial::operator+=(const Polynomial &) {
+    return Polynomial();
 }
 
 
