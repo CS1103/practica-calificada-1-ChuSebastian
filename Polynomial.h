@@ -17,11 +17,7 @@ private:
 public:
     Polynomial ();
     void add(int, int);
-    Polynomial operator*(const int);
-    Polynomial operator*(const Polynomial&);
-    Polynomial& operator=(const Polynomial&);
-    Polynomial operator+(const Polynomial&);
-    Polynomial operator+=(const Polynomial&);
+
 };
 
 #endif //POLINOMIO_POLINOMIO_H
