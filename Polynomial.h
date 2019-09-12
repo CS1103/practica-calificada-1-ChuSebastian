@@ -12,8 +12,10 @@ class Polynomial {
 private:
     int coeficiente;
     int exponente;
+    int *lista;
     
 public:
+    Polynomial ();
     void add(int, int);
 };
 

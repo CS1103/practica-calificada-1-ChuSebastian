@@ -6,6 +6,8 @@
 #include <iostream>
 #include "Polynomial.h"
 
+Polynomial::Polynomial() {
+}
 
 
 void Polynomial::add(int coef, int grado) {
@@ -17,4 +19,6 @@ void Polynomial::add(int coef, int grado) {
     
 
 }
+
+
 
