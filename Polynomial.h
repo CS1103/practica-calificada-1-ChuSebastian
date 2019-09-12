@@ -9,7 +9,12 @@
 using namespace std;
 
 class Polynomial {
-
+private:
+    int coeficiente;
+    int exponente;
+    
+public:
+    void add(int, int);
 };
 
 #endif //POLINOMIO_POLINOMIO_H
